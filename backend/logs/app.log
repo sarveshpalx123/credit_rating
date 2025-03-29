@@ -1,0 +1,284 @@
+INFO 2025-03-29 09:53:10,905 autoreload Watching for file changes with StatReloader
+WARNING 2025-03-29 09:53:46,623 log Not Found: /
+WARNING 2025-03-29 09:53:46,705 log Not Found: /favicon.ico
+INFO 2025-03-29 14:42:24,340 autoreload Watching for file changes with StatReloader
+INFO 2025-03-29 14:46:57,658 autoreload C:\Users\Hp\OneDrive\Desktop\credit_rating\backend\mortgages\views.py changed, reloading.
+INFO 2025-03-29 14:46:58,899 autoreload Watching for file changes with StatReloader
+INFO 2025-03-29 16:17:32,398 views Fetching all mortgage records
+INFO 2025-03-29 16:35:18,095 autoreload C:\Users\Hp\OneDrive\Desktop\credit_rating\backend\backend\urls.py changed, reloading.
+INFO 2025-03-29 16:35:19,885 autoreload Watching for file changes with StatReloader
+WARNING 2025-03-29 16:35:24,216 log Not Found: /api/mortgages/
+INFO 2025-03-29 16:35:36,458 autoreload C:\Users\Hp\OneDrive\Desktop\credit_rating\backend\backend\urls.py changed, reloading.
+INFO 2025-03-29 16:35:38,457 autoreload Watching for file changes with StatReloader
+INFO 2025-03-29 16:44:03,329 autoreload Watching for file changes with StatReloader
+INFO 2025-03-29 16:44:30,958 autoreload C:\Users\Hp\OneDrive\Desktop\credit_rating\backend\backend\settings.py changed, reloading.
+INFO 2025-03-29 16:44:32,790 autoreload Watching for file changes with StatReloader
+INFO 2025-03-29 16:50:11,610 autoreload C:\Users\Hp\OneDrive\Desktop\credit_rating\backend\backend\settings.py changed, reloading.
+INFO 2025-03-29 16:50:12,712 autoreload Watching for file changes with StatReloader
+INFO 2025-03-29 16:59:29,180 views Fetching all mortgage records
+INFO 2025-03-29 16:59:29,184 views Received mortgage data: <QueryDict: {'credit_score': ['750'], 'loan_amount': ['250000'], 'property_value': ['300000'], 'annual_income': ['60000'], 'debt_amount': ['15000'], 'loan_type': ['fixed'], 'property_type': ['single_family']}>
+INFO 2025-03-29 16:59:29,247 views Mortgage created with credit rating: AAA
+INFO 2025-03-29 17:07:24,359 autoreload C:\Users\Hp\OneDrive\Desktop\credit_rating\backend\mortgages\views.py changed, reloading.
+INFO 2025-03-29 17:07:26,699 autoreload Watching for file changes with StatReloader
+INFO 2025-03-29 17:09:23,266 autoreload C:\Users\Hp\OneDrive\Desktop\credit_rating\backend\mortgages\views.py changed, reloading.
+INFO 2025-03-29 17:09:25,014 autoreload Watching for file changes with StatReloader
+INFO 2025-03-29 17:10:04,705 autoreload C:\Users\Hp\OneDrive\Desktop\credit_rating\backend\mortgages\views.py changed, reloading.
+INFO 2025-03-29 17:10:06,697 autoreload Watching for file changes with StatReloader
+INFO 2025-03-29 17:10:34,344 autoreload C:\Users\Hp\OneDrive\Desktop\credit_rating\backend\mortgages\views.py changed, reloading.
+INFO 2025-03-29 17:10:36,195 autoreload Watching for file changes with StatReloader
+INFO 2025-03-29 17:14:29,108 autoreload Watching for file changes with StatReloader
+INFO 2025-03-29 17:16:57,337 views Fetching all mortgage records
+INFO 2025-03-29 17:16:57,340 views Received mortgage data: <QueryDict: {'credit_score': ['750'], 'loan_amount': ['250000'], 'property_value': ['300000'], 'annual_income': ['60000'], 'debt_amount': ['15000'], 'loan_type': ['condo'], 'property_type': ['single_family']}>
+ERROR 2025-03-29 17:16:57,340 views Mortgage creation failed: {'loan_type': [ErrorDetail(string='"condo" is not a valid choice.', code='invalid_choice')]}
+WARNING 2025-03-29 17:16:57,386 log Bad Request: /api/mortgages/
+INFO 2025-03-29 17:17:18,243 views Fetching all mortgage records
+INFO 2025-03-29 17:17:18,246 views Received mortgage data: <QueryDict: {'credit_score': ['750'], 'loan_amount': ['250000'], 'property_value': ['300000'], 'annual_income': ['60000'], 'debt_amount': ['15000'], 'loan_type': ['Condo'], 'property_type': ['single_family']}>
+ERROR 2025-03-29 17:17:18,248 views Mortgage creation failed: {'loan_type': [ErrorDetail(string='"Condo" is not a valid choice.', code='invalid_choice')]}
+WARNING 2025-03-29 17:17:18,248 log Bad Request: /api/mortgages/
+INFO 2025-03-29 17:17:47,559 views Fetching all mortgage records
+INFO 2025-03-29 17:17:47,562 views Received mortgage data: <QueryDict: {'credit_score': ['750'], 'loan_amount': ['250000'], 'property_value': ['300000'], 'annual_income': ['60000'], 'debt_amount': ['15000'], 'loan_type': ['fixed'], 'property_type': ['Condo']}>
+ERROR 2025-03-29 17:17:47,564 views Mortgage creation failed: {'property_type': [ErrorDetail(string='"Condo" is not a valid choice.', code='invalid_choice')]}
+WARNING 2025-03-29 17:17:47,564 log Bad Request: /api/mortgages/
+INFO 2025-03-29 17:18:30,136 views Fetching all mortgage records
+INFO 2025-03-29 17:18:30,138 views Received mortgage data: <QueryDict: {'credit_score': ['750'], 'loan_amount': ['250000'], 'property_value': ['300000'], 'annual_income': ['60000'], 'debt_amount': ['15000'], 'loan_type': ['fixed'], 'property_type': ['condo']}>
+INFO 2025-03-29 17:18:30,198 views Mortgage created with credit rating: AAA
+INFO 2025-03-29 17:22:17,457 autoreload C:\Users\Hp\OneDrive\Desktop\credit_rating\backend\backend\settings.py changed, reloading.
+INFO 2025-03-29 17:22:19,431 autoreload Watching for file changes with StatReloader
+INFO 2025-03-29 17:22:36,264 views Fetching all mortgage records
+INFO 2025-03-29 17:22:36,264 views Received mortgage data: {'credit_score': '760', 'loan_amount': '878789', 'property_value': '9090', 'annual_income': '0990', 'debt_amount': '898989', 'loan_type': 'fixed', 'property_type': 'single_family'}
+INFO 2025-03-29 17:22:36,289 views Mortgage created with credit rating: AAA
+INFO 2025-03-29 17:25:45,844 views Fetching all mortgage records
+INFO 2025-03-29 17:25:45,844 views Received mortgage data: {'credit_score': '650', 'loan_amount': '250000', 'property_value': '300000', 'annual_income': '60000', 'debt_amount': '20000', 'loan_type': 'adjustable', 'property_type': 'condo'}
+INFO 2025-03-29 17:25:45,899 views Mortgage created with credit rating: BBB
+INFO 2025-03-29 17:26:12,309 views Fetching all mortgage records
+INFO 2025-03-29 17:26:12,324 views Fetching all mortgage records
+INFO 2025-03-29 17:26:29,580 views Fetching all mortgage records
+INFO 2025-03-29 17:26:29,599 views Fetching all mortgage records
+INFO 2025-03-29 17:26:34,247 views Fetching all mortgage records
+INFO 2025-03-29 17:26:34,304 views Fetching all mortgage records
+INFO 2025-03-29 17:26:53,842 views Fetching all mortgage records
+INFO 2025-03-29 17:26:53,854 views Fetching all mortgage records
+INFO 2025-03-29 17:37:27,076 views Fetching all mortgage records
+INFO 2025-03-29 17:37:27,094 views Fetching all mortgage records
+INFO 2025-03-29 17:37:39,179 views Fetching all mortgage records
+INFO 2025-03-29 17:37:39,196 views Fetching all mortgage records
+INFO 2025-03-29 17:37:48,842 views Deleting mortgage ID 3
+INFO 2025-03-29 17:37:48,860 views Fetching all mortgage records
+INFO 2025-03-29 17:38:05,181 views Updating mortgage ID 1 with data: {'id': 1, 'credit_score': 750, 'loan_amount': 250000, 'property_value': 300000, 'annual_income': 60000, 'debt_amount': 15000, 'loan_type': 'fixed', 'property_type': 'single_family', 'credit_rating': 'AAA', 'created_at': '2025-03-29T11:29:29.234783Z'}
+INFO 2025-03-29 17:38:05,187 views Mortgage ID 1 updated with new credit rating: AAA
+INFO 2025-03-29 17:38:05,194 views Fetching all mortgage records
+INFO 2025-03-29 17:53:38,607 views Fetching all mortgage records
+INFO 2025-03-29 17:53:38,628 views Fetching all mortgage records
+INFO 2025-03-29 17:58:24,190 views Fetching all mortgage records
+INFO 2025-03-29 17:59:57,183 views Fetching all mortgage records
+INFO 2025-03-29 18:02:53,411 views Fetching all mortgage records
+INFO 2025-03-29 18:02:53,425 views Fetching all mortgage records
+INFO 2025-03-29 18:06:34,390 views Fetching all mortgage records
+INFO 2025-03-29 18:06:34,400 views Fetching all mortgage records
+INFO 2025-03-29 18:23:17,201 views Fetching all mortgage records
+INFO 2025-03-29 18:23:17,217 views Fetching all mortgage records
+INFO 2025-03-29 18:23:17,225 views Fetching all mortgage records
+INFO 2025-03-29 18:23:17,235 views Fetching all mortgage records
+INFO 2025-03-29 18:23:17,246 views Fetching all mortgage records
+INFO 2025-03-29 18:23:17,256 views Fetching all mortgage records
+INFO 2025-03-29 18:23:22,539 views Fetching all mortgage records
+INFO 2025-03-29 18:23:22,542 views Fetching all mortgage records
+INFO 2025-03-29 18:23:28,288 views Fetching all mortgage records
+INFO 2025-03-29 18:23:28,297 views Fetching all mortgage records
+INFO 2025-03-29 18:23:29,295 views Fetching all mortgage records
+INFO 2025-03-29 18:23:29,306 views Fetching all mortgage records
+INFO 2025-03-29 18:23:30,875 views Fetching all mortgage records
+INFO 2025-03-29 18:23:30,888 views Fetching all mortgage records
+INFO 2025-03-29 18:23:36,552 views Fetching all mortgage records
+INFO 2025-03-29 18:23:36,566 views Fetching all mortgage records
+INFO 2025-03-29 18:23:39,267 views Fetching all mortgage records
+INFO 2025-03-29 18:23:39,275 views Fetching all mortgage records
+INFO 2025-03-29 18:25:03,412 views Fetching all mortgage records
+INFO 2025-03-29 18:25:03,420 views Fetching all mortgage records
+INFO 2025-03-29 18:25:12,028 views Fetching all mortgage records
+INFO 2025-03-29 18:25:12,042 views Fetching all mortgage records
+INFO 2025-03-29 18:32:12,518 views Fetching all mortgage records
+INFO 2025-03-29 18:32:12,532 views Fetching all mortgage records
+INFO 2025-03-29 18:36:39,629 views Updating mortgage ID 1 with data: {'id': 1, 'credit_score': '550', 'loan_amount': '180000', 'property_value': '200000', 'annual_income': '100000', 'debt_amount': '55000', 'loan_type': 'adjustable', 'property_type': 'condo', 'credit_rating': 'AAA', 'created_at': '2025-03-29T11:29:29.234783Z'}
+INFO 2025-03-29 18:36:39,643 views Mortgage ID 1 updated with new credit rating: C
+INFO 2025-03-29 18:36:39,645 views Fetching all mortgage records
+INFO 2025-03-29 18:36:44,605 views Fetching all mortgage records
+INFO 2025-03-29 18:36:44,616 views Fetching all mortgage records
+INFO 2025-03-29 18:36:54,409 views Fetching all mortgage records
+INFO 2025-03-29 18:36:54,422 views Fetching all mortgage records
+INFO 2025-03-29 18:36:59,779 views Fetching all mortgage records
+INFO 2025-03-29 18:36:59,790 views Fetching all mortgage records
+INFO 2025-03-29 18:41:32,912 views Fetching all mortgage records
+INFO 2025-03-29 18:41:32,912 views Received mortgage data: {'credit_score': '-590', 'loan_amount': '956896', 'property_value': '095595', 'annual_income': '0004505', 'debt_amount': '090450459', 'loan_type': 'fixed', 'property_type': 'single_family'}
+INFO 2025-03-29 18:41:32,921 views Mortgage created with credit rating: BBB
+INFO 2025-03-29 18:47:54,582 views Fetching all mortgage records
+INFO 2025-03-29 18:47:54,584 views Received mortgage data: {'credit_score': '450', 'loan_amount': '0095', 'property_value': '5985', 'annual_income': '958', 'debt_amount': '95894', 'loan_type': 'fixed', 'property_type': 'single_family'}
+INFO 2025-03-29 18:47:54,598 views Mortgage created with credit rating: AAA
+INFO 2025-03-29 18:48:05,199 views Fetching all mortgage records
+INFO 2025-03-29 18:48:05,206 views Fetching all mortgage records
+INFO 2025-03-29 18:48:08,402 views Deleting mortgage ID 5
+INFO 2025-03-29 18:48:08,408 views Fetching all mortgage records
+INFO 2025-03-29 18:49:03,618 views Fetching all mortgage records
+INFO 2025-03-29 18:49:03,618 views Received mortgage data: {'credit_score': '450', 'loan_amount': '9', 'property_value': '98', 'annual_income': '98', 'debt_amount': '7608', 'loan_type': 'fixed', 'property_type': 'single_family'}
+INFO 2025-03-29 18:49:03,633 views Mortgage created with credit rating: AAA
+INFO 2025-03-29 18:49:10,804 views Fetching all mortgage records
+INFO 2025-03-29 18:49:10,810 views Fetching all mortgage records
+INFO 2025-03-29 18:49:15,672 views Deleting mortgage ID 7
+INFO 2025-03-29 18:49:15,689 views Fetching all mortgage records
+INFO 2025-03-29 18:52:32,379 views Fetching all mortgage records
+INFO 2025-03-29 18:52:32,385 views Fetching all mortgage records
+INFO 2025-03-29 19:21:02,672 autoreload Watching for file changes with StatReloader
+INFO 2025-03-29 19:21:15,693 views Fetching all mortgage records
+INFO 2025-03-29 19:21:15,700 views Received mortgage data: <QueryDict: {'credit_score': ['7'], 'loan_amount': ['250000'], 'property_value': ['300000'], 'annual_income': ['60000'], 'debt_amount': ['15000'], 'loan_type': ['fixed'], 'property_type': ['condo']}>
+ERROR 2025-03-29 19:21:15,705 views Mortgage creation failed: {'credit_score': [ErrorDetail(string='Credit score must be between 300 and 850.', code='invalid')]}
+WARNING 2025-03-29 19:21:15,705 log Bad Request: /api/mortgages/
+INFO 2025-03-29 19:21:22,243 views Fetching all mortgage records
+INFO 2025-03-29 19:21:22,246 views Received mortgage data: <QueryDict: {'credit_score': [''], 'loan_amount': ['250000'], 'property_value': ['300000'], 'annual_income': ['60000'], 'debt_amount': ['15000'], 'loan_type': ['fixed'], 'property_type': ['condo']}>
+ERROR 2025-03-29 19:21:22,249 views Mortgage creation failed: {'credit_score': [ErrorDetail(string='A valid integer is required.', code='invalid')]}
+WARNING 2025-03-29 19:21:22,250 log Bad Request: /api/mortgages/
+INFO 2025-03-29 19:21:28,245 views Fetching all mortgage records
+INFO 2025-03-29 19:21:28,248 views Received mortgage data: <QueryDict: {'credit_score': ['0'], 'loan_amount': ['250000'], 'property_value': ['300000'], 'annual_income': ['60000'], 'debt_amount': ['15000'], 'loan_type': ['fixed'], 'property_type': ['condo']}>
+ERROR 2025-03-29 19:21:28,249 views Mortgage creation failed: {'credit_score': [ErrorDetail(string='Credit score must be between 300 and 850.', code='invalid')]}
+WARNING 2025-03-29 19:21:28,251 log Bad Request: /api/mortgages/
+INFO 2025-03-29 19:21:35,243 views Fetching all mortgage records
+INFO 2025-03-29 19:21:35,245 views Received mortgage data: <QueryDict: {'credit_score': ['-540'], 'loan_amount': ['250000'], 'property_value': ['300000'], 'annual_income': ['60000'], 'debt_amount': ['15000'], 'loan_type': ['fixed'], 'property_type': ['condo']}>
+ERROR 2025-03-29 19:21:35,247 views Mortgage creation failed: {'credit_score': [ErrorDetail(string='Credit score must be between 300 and 850.', code='invalid')]}
+WARNING 2025-03-29 19:21:35,249 log Bad Request: /api/mortgages/
+INFO 2025-03-29 19:21:51,409 views Fetching all mortgage records
+INFO 2025-03-29 19:21:51,411 views Received mortgage data: <QueryDict: {'credit_score': ['540'], 'loan_amount': ['250000'], 'property_value': ['300000'], 'annual_income': ['60000'], 'debt_amount': ['15000'], 'loan_type': [''], 'property_type': ['condo']}>
+ERROR 2025-03-29 19:21:51,411 views Mortgage creation failed: {'loan_type': [ErrorDetail(string='"" is not a valid choice.', code='invalid_choice')]}
+WARNING 2025-03-29 19:21:51,413 log Bad Request: /api/mortgages/
+INFO 2025-03-29 19:22:03,127 views Fetching all mortgage records
+INFO 2025-03-29 19:22:03,129 views Received mortgage data: <QueryDict: {'credit_score': ['540'], 'loan_amount': ['250000'], 'property_value': ['0'], 'annual_income': ['60000'], 'debt_amount': ['15000'], 'loan_type': [''], 'property_type': ['condo']}>
+ERROR 2025-03-29 19:22:03,130 views Mortgage creation failed: {'property_value': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'loan_type': [ErrorDetail(string='"" is not a valid choice.', code='invalid_choice')]}
+WARNING 2025-03-29 19:22:03,133 log Bad Request: /api/mortgages/
+INFO 2025-03-29 19:22:13,368 views Fetching all mortgage records
+INFO 2025-03-29 19:22:13,372 views Received mortgage data: <QueryDict: {'credit_score': ['540'], 'loan_amount': ['25000-0'], 'property_value': ['0'], 'annual_income': ['60000'], 'debt_amount': ['15000'], 'loan_type': [''], 'property_type': ['condo']}>
+ERROR 2025-03-29 19:22:13,375 views Mortgage creation failed: {'loan_amount': [ErrorDetail(string='A valid number is required.', code='invalid')], 'property_value': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'loan_type': [ErrorDetail(string='"" is not a valid choice.', code='invalid_choice')]}
+WARNING 2025-03-29 19:22:13,375 log Bad Request: /api/mortgages/
+INFO 2025-03-29 19:22:23,736 views Fetching all mortgage records
+INFO 2025-03-29 19:22:23,737 views Received mortgage data: <QueryDict: {'credit_score': ['540'], 'loan_amount': ['-250000'], 'property_value': ['0'], 'annual_income': ['60000'], 'debt_amount': ['15000'], 'loan_type': [''], 'property_type': ['condo']}>
+ERROR 2025-03-29 19:22:23,739 views Mortgage creation failed: {'loan_amount': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'property_value': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'loan_type': [ErrorDetail(string='"" is not a valid choice.', code='invalid_choice')]}
+WARNING 2025-03-29 19:22:23,739 log Bad Request: /api/mortgages/
+INFO 2025-03-29 19:22:39,282 autoreload C:\Users\Hp\OneDrive\Desktop\credit_rating\backend\mortgages\views.py changed, reloading.
+INFO 2025-03-29 19:22:40,896 autoreload Watching for file changes with StatReloader
+INFO 2025-03-29 19:26:28,971 views Fetching all mortgage records
+INFO 2025-03-29 19:26:28,985 views Received mortgage data: {'credit_score': 200, 'loan_amount': -50000, 'property_value': 0, 'annual_income': 0, 'debt_amount': -10000, 'loan_type': 'invalid_type', 'property_type': 'invalid_type'}
+ERROR 2025-03-29 19:26:28,989 views Mortgage creation failed: {'credit_score': [ErrorDetail(string='Credit score must be between 300 and 850.', code='invalid')], 'loan_amount': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'property_value': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'annual_income': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'debt_amount': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'loan_type': [ErrorDetail(string='"invalid_type" is not a valid choice.', code='invalid_choice')], 'property_type': [ErrorDetail(string='"invalid_type" is not a valid choice.', code='invalid_choice')]}
+WARNING 2025-03-29 19:26:28,990 log Bad Request: /api/mortgages/
+INFO 2025-03-29 19:26:28,994 views Fetching all mortgage records
+INFO 2025-03-29 19:26:28,994 views Received mortgage data: {'credit_score': 720, 'loan_amount': 200000, 'property_value': 250000, 'annual_income': 80000, 'debt_amount': 20000, 'loan_type': 'fixed', 'property_type': 'single_family'}
+INFO 2025-03-29 19:26:29,000 views Mortgage created with credit rating: AAA
+WARNING 2025-03-29 19:26:29,035 views Mortgage ID 999 not found
+WARNING 2025-03-29 19:26:29,035 log Not Found: /api/mortgages/999/
+INFO 2025-03-29 19:26:29,039 views Fetching all mortgage records
+INFO 2025-03-29 19:28:53,784 views Fetching all mortgage records
+INFO 2025-03-29 19:28:53,786 views Received mortgage data: {'credit_score': 200, 'loan_amount': -50000, 'property_value': 0, 'annual_income': 0, 'debt_amount': -10000, 'loan_type': 'invalid_type', 'property_type': 'invalid_type'}
+ERROR 2025-03-29 19:28:53,791 views Mortgage creation failed: {'credit_score': [ErrorDetail(string='Credit score must be between 300 and 850.', code='invalid')], 'loan_amount': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'property_value': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'annual_income': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'debt_amount': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'loan_type': [ErrorDetail(string='"invalid_type" is not a valid choice.', code='invalid_choice')], 'property_type': [ErrorDetail(string='"invalid_type" is not a valid choice.', code='invalid_choice')]}
+WARNING 2025-03-29 19:28:53,794 log Bad Request: /api/mortgages/
+INFO 2025-03-29 19:28:53,802 views Fetching all mortgage records
+INFO 2025-03-29 19:28:53,805 views Received mortgage data: {'credit_score': 720, 'loan_amount': 200000, 'property_value': 250000, 'annual_income': 80000, 'debt_amount': 20000, 'loan_type': 'fixed', 'property_type': 'single_family'}
+INFO 2025-03-29 19:28:53,833 views Mortgage created with credit rating: AAA
+WARNING 2025-03-29 19:28:53,909 views Mortgage ID 999 not found
+WARNING 2025-03-29 19:28:53,909 log Not Found: /api/mortgages/999/
+INFO 2025-03-29 19:28:53,915 views Fetching all mortgage records
+INFO 2025-03-29 19:29:20,889 views Fetching all mortgage records
+INFO 2025-03-29 19:29:20,889 views Received mortgage data: {'credit_score': 200, 'loan_amount': -50000, 'property_value': 0, 'annual_income': 0, 'debt_amount': -10000, 'loan_type': 'invalid_type', 'property_type': 'invalid_type'}
+ERROR 2025-03-29 19:29:20,890 views Mortgage creation failed: {'credit_score': [ErrorDetail(string='Credit score must be between 300 and 850.', code='invalid')], 'loan_amount': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'property_value': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'annual_income': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'debt_amount': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'loan_type': [ErrorDetail(string='"invalid_type" is not a valid choice.', code='invalid_choice')], 'property_type': [ErrorDetail(string='"invalid_type" is not a valid choice.', code='invalid_choice')]}
+WARNING 2025-03-29 19:29:20,890 log Bad Request: /api/mortgages/
+INFO 2025-03-29 19:29:20,896 views Fetching all mortgage records
+INFO 2025-03-29 19:29:20,896 views Received mortgage data: {'credit_score': 720, 'loan_amount': 200000, 'property_value': 250000, 'annual_income': 80000, 'debt_amount': 20000, 'loan_type': 'fixed', 'property_type': 'single_family'}
+INFO 2025-03-29 19:29:20,903 views Mortgage created with credit rating: AAA
+WARNING 2025-03-29 19:29:20,934 views Mortgage ID 999 not found
+WARNING 2025-03-29 19:29:20,934 log Not Found: /api/mortgages/999/
+INFO 2025-03-29 19:29:20,939 views Fetching all mortgage records
+INFO 2025-03-29 19:42:25,369 views Fetching all mortgage records
+INFO 2025-03-29 19:42:25,369 views Received mortgage data: {'credit_score': 200, 'loan_amount': -50000, 'property_value': 0, 'annual_income': 0, 'debt_amount': -10000, 'loan_type': 'invalid_type', 'property_type': 'invalid_type'}
+ERROR 2025-03-29 19:42:25,373 views Mortgage creation failed: {'credit_score': [ErrorDetail(string='Credit score must be between 300 and 850.', code='invalid')], 'loan_amount': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'property_value': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'annual_income': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'debt_amount': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'loan_type': [ErrorDetail(string='"invalid_type" is not a valid choice.', code='invalid_choice')], 'property_type': [ErrorDetail(string='"invalid_type" is not a valid choice.', code='invalid_choice')]}
+WARNING 2025-03-29 19:42:25,374 log Bad Request: /api/mortgages/
+INFO 2025-03-29 19:42:25,378 views Fetching all mortgage records
+INFO 2025-03-29 19:42:25,378 views Received mortgage data: {'credit_score': 720, 'loan_amount': 200000, 'property_value': 250000, 'annual_income': 80000, 'debt_amount': 20000, 'loan_type': 'fixed', 'property_type': 'single_family'}
+INFO 2025-03-29 19:42:25,383 views Mortgage created with credit rating: AAA
+WARNING 2025-03-29 19:42:25,419 views Mortgage ID 999 not found
+WARNING 2025-03-29 19:42:25,419 log Not Found: /api/mortgages/999/
+INFO 2025-03-29 19:42:25,422 views Fetching all mortgage records
+INFO 2025-03-29 19:43:23,068 views Fetching all mortgage records
+INFO 2025-03-29 19:43:23,069 views Received mortgage data: {'credit_score': 200, 'loan_amount': -50000, 'property_value': 0, 'annual_income': 0, 'debt_amount': -10000, 'loan_type': 'invalid_type', 'property_type': 'invalid_type'}
+ERROR 2025-03-29 19:43:23,070 views Mortgage creation failed: {'credit_score': [ErrorDetail(string='Credit score must be between 300 and 850.', code='invalid')], 'loan_amount': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'property_value': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'annual_income': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'debt_amount': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'loan_type': [ErrorDetail(string='"invalid_type" is not a valid choice.', code='invalid_choice')], 'property_type': [ErrorDetail(string='"invalid_type" is not a valid choice.', code='invalid_choice')]}
+WARNING 2025-03-29 19:43:23,073 log Bad Request: /api/mortgages/
+INFO 2025-03-29 19:43:23,079 views Fetching all mortgage records
+INFO 2025-03-29 19:43:23,079 views Received mortgage data: {'credit_score': 720, 'loan_amount': 200000, 'property_value': 250000, 'annual_income': 80000, 'debt_amount': 20000, 'loan_type': 'fixed', 'property_type': 'single_family'}
+INFO 2025-03-29 19:43:23,084 views Mortgage created with credit rating: AAA
+WARNING 2025-03-29 19:43:23,126 views Mortgage ID 999 not found
+WARNING 2025-03-29 19:43:23,128 log Not Found: /api/mortgages/999/
+INFO 2025-03-29 19:43:23,132 views Fetching all mortgage records
+INFO 2025-03-29 19:46:55,909 views Fetching all mortgage records
+INFO 2025-03-29 19:46:55,909 views Received mortgage data: {'credit_score': 200, 'loan_amount': -50000, 'property_value': 0, 'annual_income': 0, 'debt_amount': -10000, 'loan_type': 'invalid_type', 'property_type': 'invalid_type'}
+ERROR 2025-03-29 19:46:55,909 views Mortgage creation failed: {'credit_score': [ErrorDetail(string='Credit score must be between 300 and 850.', code='invalid')], 'loan_amount': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'property_value': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'annual_income': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'debt_amount': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'loan_type': [ErrorDetail(string='"invalid_type" is not a valid choice.', code='invalid_choice')], 'property_type': [ErrorDetail(string='"invalid_type" is not a valid choice.', code='invalid_choice')]}
+WARNING 2025-03-29 19:46:55,909 log Bad Request: /api/mortgages/
+INFO 2025-03-29 19:46:55,918 views Fetching all mortgage records
+INFO 2025-03-29 19:46:55,918 views Received mortgage data: {'credit_score': 720, 'loan_amount': 200000, 'property_value': 250000, 'annual_income': 80000, 'debt_amount': 20000, 'loan_type': 'fixed', 'property_type': 'single_family'}
+INFO 2025-03-29 19:46:55,924 views Mortgage created with credit rating: AAA
+WARNING 2025-03-29 19:46:55,954 views Mortgage ID 999 not found
+WARNING 2025-03-29 19:46:55,954 log Not Found: /api/mortgages/999/
+INFO 2025-03-29 19:46:55,958 views Fetching all mortgage records
+INFO 2025-03-29 19:49:40,505 views Fetching all mortgage records
+INFO 2025-03-29 19:49:40,505 views Received mortgage data: {'credit_score': 200, 'loan_amount': -50000, 'property_value': 0, 'annual_income': 0, 'debt_amount': -10000, 'loan_type': 'invalid_type', 'property_type': 'invalid_type'}
+ERROR 2025-03-29 19:49:40,505 views Mortgage creation failed: {'credit_score': [ErrorDetail(string='Credit score must be between 300 and 850.', code='invalid')], 'loan_amount': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'property_value': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'annual_income': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'debt_amount': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'loan_type': [ErrorDetail(string='"invalid_type" is not a valid choice.', code='invalid_choice')], 'property_type': [ErrorDetail(string='"invalid_type" is not a valid choice.', code='invalid_choice')]}
+WARNING 2025-03-29 19:49:40,505 log Bad Request: /api/mortgages/
+INFO 2025-03-29 19:49:40,511 views Fetching all mortgage records
+INFO 2025-03-29 19:49:40,511 views Received mortgage data: {'credit_score': 720, 'loan_amount': 200000, 'property_value': 250000, 'annual_income': 80000, 'debt_amount': 20000, 'loan_type': 'fixed', 'property_type': 'single_family'}
+INFO 2025-03-29 19:49:40,517 views Mortgage created with credit rating: AAA
+WARNING 2025-03-29 19:49:40,549 views Mortgage ID 999 not found
+WARNING 2025-03-29 19:49:40,550 log Not Found: /api/mortgages/999/
+INFO 2025-03-29 19:49:40,551 views Fetching all mortgage records
+INFO 2025-03-29 19:52:08,519 views Fetching all mortgage records
+INFO 2025-03-29 19:52:08,519 views Received mortgage data: {'credit_score': 200, 'loan_amount': -50000, 'property_value': 0, 'annual_income': 0, 'debt_amount': -10000, 'loan_type': 'invalid_type', 'property_type': 'invalid_type'}
+ERROR 2025-03-29 19:52:08,520 views Mortgage creation failed: {'credit_score': [ErrorDetail(string='Credit score must be between 300 and 850.', code='invalid')], 'loan_amount': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'property_value': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'annual_income': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'debt_amount': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'loan_type': [ErrorDetail(string='"invalid_type" is not a valid choice.', code='invalid_choice')], 'property_type': [ErrorDetail(string='"invalid_type" is not a valid choice.', code='invalid_choice')]}
+WARNING 2025-03-29 19:52:08,520 log Bad Request: /api/mortgages/
+INFO 2025-03-29 19:52:08,525 views Fetching all mortgage records
+INFO 2025-03-29 19:52:08,525 views Received mortgage data: {'credit_score': 720, 'loan_amount': 200000, 'property_value': 250000, 'annual_income': 80000, 'debt_amount': 20000, 'loan_type': 'fixed', 'property_type': 'single_family'}
+INFO 2025-03-29 19:52:08,529 views Mortgage created with credit rating: AAA
+WARNING 2025-03-29 19:52:08,558 views Mortgage ID 999 not found
+WARNING 2025-03-29 19:52:08,560 log Not Found: /api/mortgages/999/
+INFO 2025-03-29 19:52:08,563 views Fetching all mortgage records
+INFO 2025-03-29 19:53:24,422 views Fetching all mortgage records
+INFO 2025-03-29 19:53:24,423 views Received mortgage data: {'credit_score': 200, 'loan_amount': -50000, 'property_value': 0, 'annual_income': 0, 'debt_amount': -10000, 'loan_type': 'invalid_type', 'property_type': 'invalid_type'}
+ERROR 2025-03-29 19:53:24,425 views Mortgage creation failed: {'credit_score': [ErrorDetail(string='Credit score must be between 300 and 850.', code='invalid')], 'loan_amount': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'property_value': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'annual_income': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'debt_amount': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'loan_type': [ErrorDetail(string='"invalid_type" is not a valid choice.', code='invalid_choice')], 'property_type': [ErrorDetail(string='"invalid_type" is not a valid choice.', code='invalid_choice')]}
+WARNING 2025-03-29 19:53:24,426 log Bad Request: /api/mortgages/
+INFO 2025-03-29 19:53:24,428 views Fetching all mortgage records
+INFO 2025-03-29 19:53:24,430 views Received mortgage data: {'credit_score': 720, 'loan_amount': 200000, 'property_value': 250000, 'annual_income': 80000, 'debt_amount': 20000, 'loan_type': 'fixed', 'property_type': 'single_family'}
+INFO 2025-03-29 19:53:24,435 views Mortgage created with credit rating: AAA
+WARNING 2025-03-29 19:53:24,467 views Mortgage ID 999 not found
+WARNING 2025-03-29 19:53:24,467 log Not Found: /api/mortgages/999/
+INFO 2025-03-29 19:53:24,473 views Fetching all mortgage records
+INFO 2025-03-29 19:54:28,791 views Fetching all mortgage records
+INFO 2025-03-29 19:54:28,792 views Received mortgage data: {'credit_score': 200, 'loan_amount': -50000, 'property_value': 0, 'annual_income': 0, 'debt_amount': -10000, 'loan_type': 'invalid_type', 'property_type': 'invalid_type'}
+ERROR 2025-03-29 19:54:28,796 views Mortgage creation failed: {'credit_score': [ErrorDetail(string='Credit score must be between 300 and 850.', code='invalid')], 'loan_amount': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'property_value': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'annual_income': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'debt_amount': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'loan_type': [ErrorDetail(string='"invalid_type" is not a valid choice.', code='invalid_choice')], 'property_type': [ErrorDetail(string='"invalid_type" is not a valid choice.', code='invalid_choice')]}
+WARNING 2025-03-29 19:54:28,798 log Bad Request: /api/mortgages/
+INFO 2025-03-29 19:54:28,806 views Fetching all mortgage records
+INFO 2025-03-29 19:54:28,808 views Received mortgage data: {'credit_score': 720, 'loan_amount': 200000, 'property_value': 250000, 'annual_income': 80000, 'debt_amount': 20000, 'loan_type': 'fixed', 'property_type': 'single_family'}
+INFO 2025-03-29 19:54:28,818 views Mortgage created with credit rating: AAA
+WARNING 2025-03-29 19:54:28,902 views Mortgage ID 999 not found
+WARNING 2025-03-29 19:54:28,903 log Not Found: /api/mortgages/999/
+INFO 2025-03-29 19:54:28,909 views Fetching all mortgage records
+INFO 2025-03-29 19:55:01,720 views Fetching all mortgage records
+INFO 2025-03-29 19:55:01,720 views Received mortgage data: {'credit_score': 200, 'loan_amount': -50000, 'property_value': 0, 'annual_income': 0, 'debt_amount': -10000, 'loan_type': 'invalid_type', 'property_type': 'invalid_type'}
+ERROR 2025-03-29 19:55:01,722 views Mortgage creation failed: {'credit_score': [ErrorDetail(string='Credit score must be between 300 and 850.', code='invalid')], 'loan_amount': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'property_value': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'annual_income': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'debt_amount': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'loan_type': [ErrorDetail(string='"invalid_type" is not a valid choice.', code='invalid_choice')], 'property_type': [ErrorDetail(string='"invalid_type" is not a valid choice.', code='invalid_choice')]}
+WARNING 2025-03-29 19:55:01,722 log Bad Request: /api/mortgages/
+INFO 2025-03-29 19:55:01,727 views Fetching all mortgage records
+INFO 2025-03-29 19:55:01,727 views Received mortgage data: {'credit_score': 720, 'loan_amount': 200000, 'property_value': 250000, 'annual_income': 80000, 'debt_amount': 20000, 'loan_type': 'fixed', 'property_type': 'single_family'}
+INFO 2025-03-29 19:55:01,733 views Mortgage created with credit rating: AAA
+WARNING 2025-03-29 19:55:01,783 views Mortgage ID 999 not found
+WARNING 2025-03-29 19:55:01,783 log Not Found: /api/mortgages/999/
+INFO 2025-03-29 19:55:01,788 views Fetching all mortgage records
+INFO 2025-03-29 19:55:28,136 views Fetching all mortgage records
+INFO 2025-03-29 19:55:28,136 views Received mortgage data: {'credit_score': 200, 'loan_amount': -50000, 'property_value': 0, 'annual_income': 0, 'debt_amount': -10000, 'loan_type': 'invalid_type', 'property_type': 'invalid_type'}
+ERROR 2025-03-29 19:55:28,140 views Mortgage creation failed: {'credit_score': [ErrorDetail(string='Credit score must be between 300 and 850.', code='invalid')], 'loan_amount': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'property_value': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'annual_income': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'debt_amount': [ErrorDetail(string='This field must be a positive number.', code='invalid')], 'loan_type': [ErrorDetail(string='"invalid_type" is not a valid choice.', code='invalid_choice')], 'property_type': [ErrorDetail(string='"invalid_type" is not a valid choice.', code='invalid_choice')]}
+WARNING 2025-03-29 19:55:28,143 log Bad Request: /api/mortgages/
+INFO 2025-03-29 19:55:28,143 views Fetching all mortgage records
+INFO 2025-03-29 19:55:28,147 views Received mortgage data: {'credit_score': 720, 'loan_amount': 200000, 'property_value': 250000, 'annual_income': 80000, 'debt_amount': 20000, 'loan_type': 'fixed', 'property_type': 'single_family'}
+INFO 2025-03-29 19:55:28,151 views Mortgage created with credit rating: AAA
+WARNING 2025-03-29 19:55:28,201 views Mortgage ID 999 not found
+WARNING 2025-03-29 19:55:28,201 log Not Found: /api/mortgages/999/
+INFO 2025-03-29 19:55:28,207 views Fetching all mortgage records
